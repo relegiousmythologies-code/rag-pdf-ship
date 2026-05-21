@@ -1,0 +1,34 @@
+# PDF RAG Pipeline Requirements
+
+# Core RAG Framework
+langchain==1.2.7
+langchain-community==0.4
+langchain-openai==0.2
+
+# PDF Processing
+pdfplumber==0.11.9
+pdf2image==1.16.3
+pytesseract==0.3.10
+
+# Vector Database
+pymilvus[milvus_lite]==2.6.7
+chroma-db==0.4.24
+
+# Embeddings
+sentence-transformers==2.2.2
+huggingface-hub==0.20.0
+
+# LLM Runtime
+ollama==0.3.0
+
+# API Framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.0
+pydantic==2.11.0
+python-multipart==0.0.22
+
+# Utilities
+requests==2.31.0
+tqdm==4.67.0
+pyyaml==6.0
+python-dotenv==1.0.0
